@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seja bem vindo!"
+        android:textSize="22dp"
+        android:padding="2dp"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sabemos que no cotidiano não é fácil manter a rotina saudável. Este aplicativo irá te auxiliar a manter a alimentação saudável te oferecendo propostas de receitas para cada dia, te lembrar de ingerir água diariamente , e fazer exercicios físicos!"
+        android:textSize="17dp"
+        android:padding="2dp"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMEÇAR"
+        android:id="@+id/Inicial_id"
+        android:onClick="inicio"/>
+
+</LinearLayout>

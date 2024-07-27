@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListaActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercicios Físicos"
+        android:textSize="25dp"
+        android:padding="2dp"
+        android:layout_margin="20dp"
+        android:onClick="goExercicios"
+        android:id="@+id/exercicios_id"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Água"
+        android:textSize="25dp"
+        android:padding="2dp"
+        android:layout_margin="20dp"
+        android:onClick="goAgua"
+        android:id="@+id/agua_id"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMC"
+        android:textSize="25dp"
+        android:padding="2dp"
+        android:layout_margin="20dp"
+        android:onClick="goIMC"
+        android:id="@+id/imc_id"/>
+
+</LinearLayout>
